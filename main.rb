@@ -8,7 +8,7 @@ def bubble_sort(array)
   array
 end
 
-def bouble_sort_by(array)
+def bubble_sort_by(array)
   reps = array.length - 1
   reps.times do |i|
     (reps - i).times do |j|
