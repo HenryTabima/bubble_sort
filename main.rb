@@ -24,3 +24,6 @@ end
 
 nums = [3, 1, 5, 12, 7]
 p bubble_sort_by(nums) { |n1, n2| n1 - n2 }
+
+arr_by = %w[hi hello hey]
+p bubble_sort_by(arr_by) { |left, right| left.length - right.length }
